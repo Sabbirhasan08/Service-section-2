@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service-padding{
+    background-color: rgba(230, 235, 235, 0.308);
+}
+.service-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+    padding-top: 20px;
+}
+.service-item{
+    margin-top: 50px;
+    border: solid rgb(0, 0, 0) 1px ;
+    text-align: center;
+    background-color: black;
+    background-position: center;
+    position: relative;
+    transition: all 0.9s ease 0s;
+    height: 55vh;
+}
+.service-item:hover{
+    background-color: tomato;
+}
+.service-item i{
+    color: red;
+    font-size: 50px;
+    margin-top: 20%;
+    transition: all 0.9s ease 0s;
+}
+.service-item:hover i{
+    font-size: 90px;
+    color: seashell;
+}
+.service-item h3{
+    color: seashell;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.service-hover-item p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    word-spacing: 3px;
+    display: none;
+    transition: all 0.9s ease 0s;
+}
+.service-item:hover p {
+    display: block;
+}
+
+
